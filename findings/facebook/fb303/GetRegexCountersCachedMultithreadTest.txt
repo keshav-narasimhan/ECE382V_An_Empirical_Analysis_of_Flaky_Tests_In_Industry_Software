@@ -1,0 +1,6 @@
+URL - https://github.com/facebook/fb303/commit/a4e308843e427c0ab09fdaa1e5509a7f928bc321
+Programming Language - C++
+Number of Tests - 3
+
+Cause (RQ1) - Lack of Synchronization / Concurrency
+Fix (RQ2) - Developers added locks and utilized multiple threads in a concurrent-safe way to pass the test
