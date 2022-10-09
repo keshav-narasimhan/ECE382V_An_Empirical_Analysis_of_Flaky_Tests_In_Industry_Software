@@ -1,0 +1,6 @@
+URL - https://github.com/stripe/veneur/commit/60f9f379f3b9990979b37b46f7406b4720f7736f
+Programming Language - Go
+Number of Tests - 1
+
+Cause (RQ1) - Asynchronous Wait
+Fix (RQ2) - Flakiness arose when listeners were waiting indefinitely for a shutdown signal sent by the server. To mitigate the non-determinism, developers added a waitFor() call to ensure the proper sequence of events.
