@@ -1,0 +1,6 @@
+URL - https://github.com/google/playground-elements/commit/3da08c5c1a5afea9169618799ccd37eeb7cb742f
+Programming Language - TypeScript
+Number of Tests - 1
+
+Cause (RQ1) - Asynchronous Wait
+Fix (RQ2) - Developers used a singular Promise statement instead of multiple async calls for better error handling in the event of errors during parallel execution
