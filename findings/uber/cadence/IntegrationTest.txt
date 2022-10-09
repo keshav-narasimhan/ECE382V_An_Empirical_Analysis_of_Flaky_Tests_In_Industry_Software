@@ -1,0 +1,6 @@
+URL - https://github.com/uber/cadence/commit/4cfb741426d8ddebec6e8b275130778952e8cbcf
+Programming Language - Go
+Number of Tests - 1
+
+Cause (RQ1) - Tolerance/Variance
+Fix (RQ2) - Developers added a friendlier tolerance to fix the flakiness of the test, probably due to variations in the amount of time needed to start the workflow, machine usage, memory space, etc.
