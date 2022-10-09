@@ -1,0 +1,6 @@
+URL - https://github.com/google/orbit/commit/bfbe3510cd9c3f67433f9d602155a25fb7260f7b
+Programming Language - Python
+Number of Tests - 1
+
+Cause (RQ1) - Asynchronous Wait
+Fix (RQ2) - Developers resolved the non-deterministic failure by adding a waitFor() call to ensure that a module loads
