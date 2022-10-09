@@ -1,0 +1,6 @@
+URL - https://github.com/stripe/stripe-ios/commit/82f01a1aa4b3805d7bdd98ed4ea3908999558856
+Programming Language - Swift
+Number of Tests - 1
+
+Cause (RQ1) - Platform / Environment Issues
+Fix (RQ2) - The flakiness in this test arose from the fact that a certain UI element was buggy on certain versions of XCode due to invalid bitcodes. Developers fixed this issue by making the element backwards-compatible with older versions of XCode.
