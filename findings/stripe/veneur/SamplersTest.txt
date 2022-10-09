@@ -1,0 +1,6 @@
+URL - https://github.com/stripe/veneur/commit/ea581c77cf107a9e5a40b9e8aa29cce20621673c
+Programming Language - Go
+Number of Tests - 1
+
+Cause (RQ1) - Tolerance / Variation
+Fix (RQ2) - Developers mitigated this flaky test by correcting the assert statement to include the equals state when using comparators (instead of >, they used >=)
