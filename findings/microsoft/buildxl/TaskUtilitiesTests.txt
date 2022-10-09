@@ -1,0 +1,6 @@
+URL - https://github.com/microsoft/BuildXL/commit/4430725867af337d1ff4eb617b1c3a80914ee5ae
+Programming Language - C#
+Number of Tests - 1
+
+Cause (RQ1) - Lack of Wait / Delay
+Fix (RQ2) - The test is designed to throw an exception due to a timeout after a cancellation is requested by the code. To fix this, developers added a custom delay such that the test would automatically timeout.
