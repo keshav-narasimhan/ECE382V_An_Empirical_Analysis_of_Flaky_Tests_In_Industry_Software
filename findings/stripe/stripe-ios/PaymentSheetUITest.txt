@@ -1,0 +1,6 @@
+URL - https://github.com/stripe/stripe-ios/commit/df09a71f2474e180130a0a31db3eda6ac39ff1a5
+Programming Language - Swift
+Number of Tests - 2
+
+Cause (RQ1) - Asynchronous Wait
+Fix (RQ2) - Developers fixed the flakiness found in this test by adding a waitFor() call to ensure that a button is loaded on the app within a certain interval of time.
