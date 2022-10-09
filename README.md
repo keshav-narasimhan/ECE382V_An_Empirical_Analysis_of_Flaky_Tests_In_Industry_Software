@@ -1,1 +1,2 @@
-# ECE382V_An_Empirical_Analysis_of_Flaky_Tests_In_Industry_Software
+# An Empirical Analysis of Flaky Tests In Industry Software
+This repository contains all of our work for Dr. August Shi's ECE 382V course at The University of Texas at Austin. Throughout the course of the semester, we were asked to work on a self-proposed research project centered around flaky tests and non-determinism in software. We chose to conduct an empirical analysis on industry open-source software projects from major technology companies, such as Google, Amazon, Microsoft, etc.
