@@ -1,0 +1,6 @@
+URL - https://github.com/google/accompanist/commit/3c75d88548d65c9cb4c26178c0c3ad0cf376122b
+Programming Language - Kotlin
+Number of Tests - 1
+
+Cause (RQ1) - Asynchronous Wait
+Fix (RQ2) - Developers added a waitFor() call to ensure that an image is drawn before the test continues
