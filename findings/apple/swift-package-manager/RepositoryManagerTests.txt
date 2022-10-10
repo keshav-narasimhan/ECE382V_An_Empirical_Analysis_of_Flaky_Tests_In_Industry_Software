@@ -1,0 +1,6 @@
+URL - https://github.com/apple/swift-package-manager/commit/693eb7185e048bc045c714fadfcb6597d7d883bd
+Programming Language - Swift
+Number of Tests - 1
+
+Cause (RQ1) - Improper Order of Events / Concurrency
+Fix (RQ2) - In this concurrency test, the test requires that each task being completed records its results. Developers fixed the flakiness in this test by ensuring that the task records itself first, and then removes itself from the group of tasks.
