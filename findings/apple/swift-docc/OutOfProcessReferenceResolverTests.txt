@@ -1,0 +1,6 @@
+URL - https://github.com/apple/swift-docc/commit/751f06d78b7bd240d1e8216fe4bccd620b520075
+Programming Language - Swift
+Number of Tests - 2
+
+Cause (RQ1) - Tolerance?
+Fix (RQ2) - This test relies on the test receiving a full JSON response, but flakiness arose due to the fact that the response need not be full each time (could be partially given). Developers fixed this by adding functionality to allow partial responses to be analyzed, rather than relying completely on full responses.
