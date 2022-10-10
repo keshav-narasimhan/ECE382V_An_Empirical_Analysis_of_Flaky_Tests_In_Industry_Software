@@ -1,0 +1,6 @@
+URL - https://github.com/apple/swift-nio/commit/32f62a89d9318dc178360935046de9ecf1714801
+Programming Language - Swift
+Number of Tests - 1
+
+Cause (RQ1) - Tolerance / Variation
+Fix (RQ2) - Developers added a tolerance to allow some wiggle room for the variable to change its value from a method execution, instead of immediately checking to see if the variable's value had changed in the test code.
