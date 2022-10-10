@@ -1,0 +1,6 @@
+URL - https://github.com/twosigma/Cook/commit/efda36fdbbe6c9814a85e2a332819f12760604a7#diff-4a657c3677bd04168c364068d5a4515494cff3c13c0842f1e6776be6d559ef84
+Programming Language - Clojure
+Number of Tests - 1
+
+Cause (RQ1) - Collections / Ordering
+Fix (RQ2) - This test requires that the collection in question is sorted, which causes the flaky failure. To fix this issue, developers sort the collection in the CUT.
