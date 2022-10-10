@@ -1,0 +1,6 @@
+URL - https://github.com/twosigma/Cook/commit/389dc41328a5d1ef4dbfe8656646d88ac0debb1e
+Programming Language - Python
+Number of Tests - 1
+
+Cause (RQ1) - Collections
+Fix (RQ2) - The test relies on the the collection containing specific instances, which flakily fail. Developers fixed this error by making the collection only contain the instances (failing in this case) that the test cares about.
