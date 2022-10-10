@@ -1,0 +1,6 @@
+URL - https://github.com/twosigma/waiter/commit/480c97e1c5eac10a20bfee248c7bd161b627e703
+Programming Language - Clojure
+Number of Tests - 2
+
+Cause (RQ1) - Data Races / Concurrency
+Fix (RQ2) - Developers utilized locks in the CUT to ensure concurrent threads wouldn't be trying to grab the same ports being used in the program.
