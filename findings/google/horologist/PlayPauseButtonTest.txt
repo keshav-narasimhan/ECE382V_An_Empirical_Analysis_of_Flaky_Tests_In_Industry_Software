@@ -1,0 +1,6 @@
+URL - https://github.com/google/horologist/commit/bf5633ac5646b9f07b479334549435125341f5a9
+Programming Language - Kotlin
+Number of Tests - 4
+
+Cause (RQ1) - Tolerance/Variation
+Fix (RQ2) - To fix the flakiness in this test, developers added a tolerance to test the UI components in this app, specifically checking to see if a click occurred within a 1 second timeout instead of checking immediately.
