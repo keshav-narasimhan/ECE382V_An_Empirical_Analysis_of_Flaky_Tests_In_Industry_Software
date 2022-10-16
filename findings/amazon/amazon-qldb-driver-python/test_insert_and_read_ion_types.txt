@@ -1,0 +1,6 @@
+URL - https://github.com/awslabs/amazon-qldb-driver-python/commit/7b3f27129b638294e53f03db139dd190da484481
+Programming Language - Python
+Number of Tests - 1
+
+Cause (RQ1) - Incorrect Order of Events
+Fix (RQ2) - Developers fixed the flakiness in this test by ensuring that a database transaction goes through before the test goes in and tries to retrieve the first row submitted by the transaction
