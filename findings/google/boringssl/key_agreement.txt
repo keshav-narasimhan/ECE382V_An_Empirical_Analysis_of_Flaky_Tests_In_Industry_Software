@@ -1,0 +1,6 @@
+URL - https://github.com/google/boringssl/commit/f28dd64d43f8705d63b8142915e51f4091dc092b
+Programming Language - Go
+Number of Tests - 1
+
+Cause (RQ1) - Bit Manipulation / Arithmetic
+Fix (RQ2) - Developers had to add a bit clear statement to ensure that the resulting ciphertext is below the modulus requirement
