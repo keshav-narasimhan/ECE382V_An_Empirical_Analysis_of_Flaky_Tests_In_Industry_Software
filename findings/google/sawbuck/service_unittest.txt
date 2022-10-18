@@ -1,0 +1,6 @@
+URL - https://github.com/google/sawbuck/commit/4ad8675fee2de7985b038c4cbeb914bbe7a070af
+Programming Language - C++
+Number of Tests - 2
+
+Cause (RQ1) - Memory
+Fix (RQ2) - Developers added a method that frees the memory allocated by files to ensure that test don't fail non-deterministically
