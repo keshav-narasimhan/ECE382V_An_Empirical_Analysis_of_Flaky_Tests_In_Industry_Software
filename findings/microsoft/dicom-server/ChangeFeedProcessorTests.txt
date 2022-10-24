@@ -1,0 +1,6 @@
+URL - https://github.com/microsoft/dicom-server/commit/645c9a6ceb630659079122c990e840f7fa230e3e
+Programming Language - C#
+Number of Tests - 1
+
+Cause (RQ1) - Arithmetic
+Fix (RQ2) - Developers fixed the flakiness by ensuring the two objects being compared are of the same type
