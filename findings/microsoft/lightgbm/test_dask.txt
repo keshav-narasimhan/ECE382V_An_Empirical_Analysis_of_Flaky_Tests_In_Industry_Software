@@ -1,0 +1,6 @@
+URL - https://github.com/microsoft/LightGBM/commit/39c85dd97d2278b0a9075e279e3346e57d459a3d
+Programming Language - Python
+Number of Tests - 1
+
+Cause (RQ1) - Async Wait
+Fix (RQ2) - Developers fixed the flakiness by adding a waitFor() call
