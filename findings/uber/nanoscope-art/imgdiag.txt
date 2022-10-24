@@ -1,0 +1,6 @@
+URL - https://github.com/uber/nanoscope-art/commit/ddd2172fd9034c687f249be728810ad29bcdc654
+Programming Language - C++
+Number of Tests - 2
+
+Cause (RQ1) - Arithmetic / Hardcoding
+Fix (RQ2) - Developers ensured thatb they didn't hardcode any values to avoid a real thread having the same PID as the dummy
