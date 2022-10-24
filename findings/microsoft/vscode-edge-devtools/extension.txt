@@ -1,0 +1,6 @@
+URL - https://github.com/microsoft/vscode-edge-devtools/commit/65015b8a5ea683c17015b8349b86d2315c3b177a
+Programming Language - TypeScript
+Number of Tests - 2
+
+Cause (RQ1) - Order of Events
+Fix (RQ2) - The flakiness in this test arose from an exit button being able to be clicked even after being "destroyed." To fix this issue, the developers returned immediately as soon as the button was known to be "destroyed" or null, tearing down the state of the program upon completion.
