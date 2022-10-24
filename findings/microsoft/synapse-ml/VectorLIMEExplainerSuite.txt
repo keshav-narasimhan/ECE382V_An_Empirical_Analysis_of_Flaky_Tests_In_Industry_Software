@@ -1,0 +1,6 @@
+URL - https://github.com/microsoft/SynapseML/commit/e23041f47f3bad97435eb5564e0ca451fc70aee2
+Programming Language - Scala
+Number of Tests - 2
+
+Cause (RQ1) - Tolerance
+Fix (RQ2) - The default check for testing the equality of matrices in this test case was pretty complicated. Thus, developers added a completely new method to handle checking if matrices were equal.
