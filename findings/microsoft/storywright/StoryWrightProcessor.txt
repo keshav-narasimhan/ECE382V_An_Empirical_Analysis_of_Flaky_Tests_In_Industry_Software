@@ -1,0 +1,6 @@
+URL - https://github.com/microsoft/storywright/commit/0723e46aa4d2793d3270b36b8249f47359ca73cf
+Programming Language - TypeScript
+Number of Tests - 1
+
+Cause (RQ1) - Delay
+Fix (RQ2) - Developers added more delay to the timeout to ensure each story has enough time to execute its process.
