@@ -2,5 +2,5 @@ URL - https://github.com/twosigma/waiter/commit/45ac6b6d856237666ba6a6c7bb7019d6
 Programming Language - Clojure
 Number of Tests - 1
 
-Cause (RQ1) - Tolerance / Variation
+Cause (RQ1) - Algorithmic Flakiness
 Fix (RQ2) - Developers added a more generous tolerance on the assert statement in this test to mitigate the non-determinism present.

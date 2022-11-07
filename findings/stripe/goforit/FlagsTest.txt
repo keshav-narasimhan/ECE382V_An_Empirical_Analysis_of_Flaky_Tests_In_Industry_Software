@@ -2,5 +2,5 @@ URL - https://github.com/stripe/goforit/commit/4276b0e40c41ac50a2084eaa26c9f3a9b
 Programming Language - Go
 Number of Tests - 1
 
-Cause (RQ1) - Tolerance / Variation
+Cause (RQ1) - Algorithmic Flakiness
 Fix (RQ2) - Developers fixed the flakiness found in this test by allowing a larger threshold for result values to enable some additional wiggle room for the assert statements

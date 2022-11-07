@@ -2,5 +2,5 @@ URL - https://github.com/microsoft/playwright-dotnet/commit/d754d9b7d91fdfe4e6f0
 Programming Language - C#
 Number of Tests - 1
 
-Cause (RQ1) - Tolerance
+Cause (RQ1) - Incorrect Program Logic 
 Fix (RQ2) - Developers removed the requirement to throw a specific type of exception, instead opting to catch any thrown exception.

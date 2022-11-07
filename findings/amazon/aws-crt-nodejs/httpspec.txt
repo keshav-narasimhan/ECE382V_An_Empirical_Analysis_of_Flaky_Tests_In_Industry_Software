@@ -2,5 +2,5 @@ URL - https://github.com/awslabs/aws-crt-nodejs/commit/ee11c782ada9f3cd9c983a530
 Programming Language - TypeScript
 Number of Tests - 2
 
-Cause (RQ1) - Tolerance/Variation
+Cause (RQ1) - Incorrect Logic
 Fix (RQ2) - The test was flaky because the conditional expected only a specific type of error. Developers fixed the flakiness by adding another allowable error in the conditional if-statement.

@@ -2,5 +2,5 @@ URL - https://github.com/google/orbit/commit/c39570a59b3393a53192e7ed2f186ce76a8
 Programming Language - C++
 Number of Tests - 2
 
-Cause (RQ1) - Tolerance/Variation
+Cause (RQ1) - Incorrect Program Logic
 Fix (RQ2) - Developers increased the tolerance of test to increase the variation of the sleep() call

@@ -2,5 +2,5 @@ URL - https://github.com/airbnb/aerosolve/commit/d2b8e6d8b8c13853b4a65890cb1b07d
 Programming Language - Scala
 Number of Tests - 1
 
-Cause (RQ1) - Tolerance/Variation
+Cause (RQ1) - Algorithmic Flakiness
 Fix (RQ2) - Developers increased the tolerance of test error when testing machine learning models in this test to mitigate flakiness.

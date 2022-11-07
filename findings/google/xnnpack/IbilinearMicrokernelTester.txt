@@ -2,5 +2,5 @@ URL - https://github.com/google/XNNPACK/commit/7e21118358dbfa001f83cdf83a8e4de87
 Programming Language - C++
 Number of Tests - 1
 
-Cause (RQ1) - Tolerance/Variation
+Cause (RQ1) - Algorithmic Flakiness
 Fix (RQ2) - Developers added an explicit tolerance parameter to ensure the test passing deterministically.
