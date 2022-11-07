@@ -1,0 +1,6 @@
+URL - https://github.com/awslabs/aws-advanced-jdbc-wrapper/commit/430f36ffdc767d7b7db7fbbe6be43393bc240e49
+Programming Language - Java
+Number of Tests - 1
+
+Cause (RQ1) - Incorrect Program Logic
+Fix (RQ2) - The test was flaky because a variable was never set, causing a method invocation to always occur. Developers fixed the flakiness by refactoring the logic and setting an initial value to the variable.
