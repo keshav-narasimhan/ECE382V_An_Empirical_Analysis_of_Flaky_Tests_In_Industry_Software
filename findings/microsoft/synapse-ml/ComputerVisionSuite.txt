@@ -1,0 +1,6 @@
+URL - https://github.com/microsoft/SynapseML/commit/9aed00480b08bd5e6378c255990ec80a0e7f9709
+Programming Language - Scala
+Number of Tests - 1
+
+Cause (RQ1) - Incorrect Program Logic
+Fix (RQ2) - Developers refactored the code to update the logic to select images.
