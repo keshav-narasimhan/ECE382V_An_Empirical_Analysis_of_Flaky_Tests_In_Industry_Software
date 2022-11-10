@@ -1,0 +1,6 @@
+URL - https://github.com/aws/amazon-vpc-resource-controller-k8s/commit/7451f66f7a5ddd0184a2f8650182a0b547b0ab76
+Programming Language - Go
+Number of Tests - 1
+
+Cause (RQ1) - Async Wait
+Fix (RQ2) - Developers added a larger custom delay to fix the flakiness of the test to ensure previous events are able to be properly updated.
