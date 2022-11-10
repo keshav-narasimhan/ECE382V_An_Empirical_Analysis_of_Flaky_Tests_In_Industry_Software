@@ -2,5 +2,5 @@ URL - https://github.com/microsoft/vscode-jupyter/commit/ae9c4e352ea182c93cc0d05
 Programming Language - TypeScript
 Number of Tests - 1
 
-Cause (RQ1) - Delay
+Cause (RQ1) - Async Wait
 Fix (RQ2) - Developers added more delay to the timeout.
