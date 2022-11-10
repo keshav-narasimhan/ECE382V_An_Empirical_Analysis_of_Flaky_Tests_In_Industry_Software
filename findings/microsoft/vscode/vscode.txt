@@ -1,0 +1,6 @@
+URL - https://github.com/microsoft/vscode/commit/c8826e4ff5246775ebee0fb932402de6af55ddc8
+Programming Language - JavaScript
+Number of Tests - 1
+
+Cause (RQ1) - Async Wait
+Fix (RQ2) - Developers added a call to wait for a few milliseconds to ensure resources exist
