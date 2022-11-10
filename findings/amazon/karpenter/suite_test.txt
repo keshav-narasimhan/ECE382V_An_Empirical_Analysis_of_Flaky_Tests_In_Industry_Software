@@ -1,0 +1,6 @@
+URL - https://github.com/aws/karpenter/commit/057ee486b855787009565700d848bd582610fc57
+Programming Language - Go
+Number of Tests - 6
+
+Cause (RQ1) - Incorrect Program Logic
+Fix (RQ2) - Developers refactored the test code to ensure that the checks made in the test execution are not flaky (instead of checking the queue, just check the end status of the pods at the end)
