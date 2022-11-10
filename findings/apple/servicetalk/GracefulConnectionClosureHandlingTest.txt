@@ -1,0 +1,6 @@
+URL - https://github.com/apple/servicetalk/commit/8d92bb5a857090bacd2eef00f28ae0c732c5e44a
+Programming Language - Java
+Number of Tests - 1
+
+Cause (RQ1) - Incorrect Program Logic
+Fix (RQ2) - Developers refactored the test code to, instead of checking for a specific exception class instance, allow for any instance of a specific exception
