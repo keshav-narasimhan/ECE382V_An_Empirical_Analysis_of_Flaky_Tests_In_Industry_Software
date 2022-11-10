@@ -1,0 +1,6 @@
+URL - https://github.com/aws/aws-iot-device-sdk-embedded-C/commit/fa7520c003bdbe8423b1bde4beff218105089d53
+Programming Language - C
+Number of Tests - 2
+
+Cause (RQ1) - Race / Order of Events
+Fix (RQ2) - Developers added a waitFor() type call to ensure that the test code recevies the response first before moving on.
