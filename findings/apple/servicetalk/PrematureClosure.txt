@@ -1,0 +1,6 @@
+URL - https://github.com/apple/servicetalk/commit/c294cc56a4e4154d817e89c71fdad4e00b56f89a
+Programming Language - Java
+Number of Tests - 1
+
+Cause (RQ1) - Race / Order of Events
+Fix (RQ2) - Developers fixed the flakiness by refactoring the program logic to check the specific instance of the exception to further differentiate between different exceptions being thrown during the test execution.
