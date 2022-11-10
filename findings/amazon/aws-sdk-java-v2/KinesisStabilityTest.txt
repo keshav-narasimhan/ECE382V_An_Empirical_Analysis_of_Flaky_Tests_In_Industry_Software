@@ -1,0 +1,6 @@
+URL - https://github.com/aws/aws-sdk-java-v2/commit/7fd494e214a91a5996447374bb4fa58205c92885
+Programming Language - Java
+Number of Tests - 1
+
+Cause (RQ1) - Incorrect Logic
+Fix (RQ2) - Developers refactored the program logic to add an additional check within the condition to check for empty data.
