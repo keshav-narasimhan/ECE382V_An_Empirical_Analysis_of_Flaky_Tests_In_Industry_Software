@@ -4,3 +4,10 @@ Number of Tests - 1
 
 Cause (RQ1) - Incorrect Program Logic
 Fix (RQ2) - Developers refactored the test code to, instead of checking for a specific exception class instance, allow for any instance of a specific exception
+
+URL - https://github.com/apple/servicetalk/commit/8a4f916b2012a6703a8b18f2068d90ed5cbe0af1
+Programming Language - Java
+Number of Tests - 1
+
+Cause (RQ1) - Async Wait
+Fix (RQ2) - Developers fixed the flakiness by adding a waitFor() type call
