@@ -1,0 +1,6 @@
+URL - https://github.com/aws/amazon-ivs-react-native-player/commit/3025f0528f944f956347fb447557a164aa27bd9a
+Programming Language - JavaScript
+Number of Tests - 3
+
+Cause (RQ1) - Async Wait
+Fix (RQ2) - Developers added a waitFor() type call to ensure that the resources get loaded/rendered properly during the test execution.
