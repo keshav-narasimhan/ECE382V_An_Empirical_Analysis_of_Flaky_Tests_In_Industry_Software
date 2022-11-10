@@ -1,0 +1,6 @@
+URL - https://github.com/aws/aws-toolkit-jetbrains/commit/374892fb39b240b75fa115b8f168c8a0ef3dcf2c
+Programming Language - Kotlin
+Number of Tests - 1
+
+Cause (RQ1) - Platform
+Fix (RQ2) - On certain CPUs, the test intermittently failed due to an inadequate timeout. Developers added a longer timeout to resolve the flakiness.
