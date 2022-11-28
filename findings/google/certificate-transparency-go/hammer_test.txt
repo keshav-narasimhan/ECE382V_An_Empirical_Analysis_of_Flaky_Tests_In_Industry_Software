@@ -2,5 +2,5 @@ URL - https://github.com/google/certificate-transparency-go/commit/698feb5f683de
 Programming Language - Go
 Number of Tests - 1
 
-Cause (RQ1) - Tolerance / Variation
+Cause (RQ1) - Algorithmic Flakiness
 Fix (RQ2) - Developers fixed this test by adding a wider interval to allow the test to pass in specific cases where the test was failing non-deterministically.

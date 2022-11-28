@@ -2,5 +2,5 @@ URL - https://github.com/google/chrome-ssh-agent/commit/ccc9d005c82f06b44a62f7e0
 Programming Language - Go
 Number of Tests - 1
 
-Cause (RQ1) - Race for Resources
+Cause (RQ1) - Race for Resources / Concurrency
 Fix (RQ2) - The test suite tests to see if the state of the system changes once the DOM has been updated. Flakiness arises when the test expects DOM elements before they have become available. Developers fixed this issue by updating the internal state of the system as soon as the DOM is updated. 

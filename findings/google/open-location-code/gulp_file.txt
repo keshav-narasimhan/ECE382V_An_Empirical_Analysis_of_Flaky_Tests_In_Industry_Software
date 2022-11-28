@@ -2,5 +2,5 @@ URL - https://github.com/google/open-location-code/commit/db880174010aba6db8fd3c
 Programming Language - JavaScript
 Number of Tests - 1
 
-Cause (RQ1) - Dependencies
+Cause (RQ1) - Environment
 Fix (RQ2) - Developers fixed this flaky test by updating the test's dependencies which helped the execution of certain assert calls.

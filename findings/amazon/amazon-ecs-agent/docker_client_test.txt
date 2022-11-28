@@ -2,5 +2,5 @@ URL - https://github.com/aws/amazon-ecs-agent/commit/71a3b380900077fcfb0ef0a5c05
 Programming Language - Go
 Number of Tests - 2
 
-Cause (RQ1) - Order of Events
+Cause (RQ1) - Incorrect Program Logic / Order of Events
 Fix (RQ2) - Developers added a custom delay to fix the tests' flakiness.

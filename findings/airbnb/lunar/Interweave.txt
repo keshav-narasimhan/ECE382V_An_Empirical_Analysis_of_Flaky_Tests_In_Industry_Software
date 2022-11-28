@@ -2,5 +2,5 @@ URL - https://github.com/airbnb/lunar/commit/f163beea2bea08eb5f51b48a00ea281dd83
 Programming Language - TypeScript
 Number of Tests - 1
 
-Cause (RQ1) - Old Dependencies
+Cause (RQ1) - Environment / Old Dependencies
 Fix (RQ2) - Developers updated outdated dependencies to fix this test

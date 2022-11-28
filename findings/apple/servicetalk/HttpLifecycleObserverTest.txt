@@ -2,5 +2,5 @@ URL - https://github.com/apple/servicetalk/commit/c74af36716f652bd2ea1789cc22c9a
 Programming Language - Java
 Number of Tests - 9
 
-Cause (RQ1) - Improper Order of Events
+Cause (RQ1) - Async Wait
 Fix (RQ2) - Developers added a shutdown() function that ensures that client and server instances properly shutdown after usage and make sure that no other events are possible after shutdown. Before, there was flakiness as some client / server instances continued to function and perform events even after termination.

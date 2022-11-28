@@ -2,5 +2,5 @@ URL - https://github.com/aws/aws-toolkit-vscode/commit/07dd22b3af4f814438df34666
 Programming Language - TypeScript
 Number of Tests - 2
 
-Cause (RQ1) - Race / Order of Events
+Cause (RQ1) - Race / Concurrency
 Fix (RQ2) - Developers decided to skip this test, essentially removing the test from the test suite.

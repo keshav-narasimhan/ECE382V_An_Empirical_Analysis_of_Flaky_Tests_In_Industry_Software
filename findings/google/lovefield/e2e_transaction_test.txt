@@ -2,5 +2,5 @@ URL - https://github.com/google/lovefield/commit/e3a02e5ffcbec6092077fd2630c512c
 Programming Language - JavaScript
 Number of Tests - 1
 
-Cause (RQ1) - Incorrect Order of Events
+Cause (RQ1) - Incorrect Program Logic
 Fix (RQ2) - Developers added a "setup" method to ensure each job was assigned to an employee.

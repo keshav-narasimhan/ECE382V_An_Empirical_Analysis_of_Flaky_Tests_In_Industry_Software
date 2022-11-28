@@ -2,5 +2,5 @@ URL - https://github.com/google/orbit/commit/a5b8ea10bc5ea0a88509b340b26f906f203
 Programming Language - Python
 Number of Tests - 1
 
-Cause (RQ1) - The test relied on a hard-coded value in the CUT
+Cause (RQ1) - Unordered Collections
 Fix (RQ2) - Developers filtered the values within the test such that the test suite no longer relies on a value being in a specific, hard-coded position

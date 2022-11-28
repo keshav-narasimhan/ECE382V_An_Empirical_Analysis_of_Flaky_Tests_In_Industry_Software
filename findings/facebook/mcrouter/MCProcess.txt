@@ -2,5 +2,5 @@ URL - https://github.com/facebook/mcrouter/commit/5d57615f20aded01ec779899def9ba
 Programming Language - Python
 Number of Tests - 1
 
-Cause (RQ1) - Insufficient Memory
+Cause (RQ1) - Memory
 Fix (RQ2) - Developers added custom memory amount for test instead of default amount

@@ -2,5 +2,5 @@ URL - https://github.com/google/jax-cfd/commit/381f20a20f1d5a21cda63456f284aeb36
 Programming Language - Python
 Number of Tests - 1
 
-Cause (RQ1) - Tolerance/Variance
+Cause (RQ1) - Algorithmic Flakiness
 Fix (RQ2) - Developers added a custom tolerance on assert statements rather than using the default variation

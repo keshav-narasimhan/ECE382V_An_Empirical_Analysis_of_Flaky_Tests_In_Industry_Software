@@ -2,5 +2,5 @@ URL - https://github.com/airbnb/lottie-ios/commit/183f176948490565f014db844ea966
 Programming Language - Swift
 Number of Tests - 1
 
-Cause (RQ1) - Memory Usage
+Cause (RQ1) - Resource Leak
 Fix (RQ2) - This test tests the performance of animation layers. The problem arises when multiple layers are allocated in the test and are not immediately deallocated, which results in memory continously expanding. To fix this issue, developers created a method to immediately deallocate the memory of an animation layer once done using it.
