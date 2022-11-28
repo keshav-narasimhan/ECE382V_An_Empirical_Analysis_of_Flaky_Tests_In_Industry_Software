@@ -2,5 +2,5 @@ URL - https://github.com/microsoft/sarif-sdk/commit/b4512f2a21e360a527e36365718e
 Programming Language - C#
 Number of Tests - 6
 
-Cause (RQ1) - Dependencies
+Cause (RQ1) - Dependencies / Environment
 Fix (RQ2) - The test depended on deprecated packages/dependencies, so the developers fixed the flakiness by getting rid of the test's reliance on such libraries.

@@ -2,5 +2,5 @@ URL - https://github.com/microsoft/dicom-server/commit/645c9a6ceb630659079122c99
 Programming Language - C#
 Number of Tests - 1
 
-Cause (RQ1) - Comparisons
+Cause (RQ1) - Incorrect Program Logic
 Fix (RQ2) - Developers fixed the flakiness by ensuring the two objects being compared are of the same type

@@ -2,5 +2,5 @@ URL - https://github.com/microsoft/reverse-proxy/commit/f99cddf6bcc41965b819ee29
 Programming Language - C#
 Number of Tests - 1
 
-Cause (RQ1) - Order of Events
+Cause (RQ1) - async wait
 Fix (RQ2) - The test was failing due to runtime re-arranging orders of events in certain cases. To alleviate this, developers implemented a rigid ordering of the program events.

@@ -10,5 +10,5 @@ URL - https://github.com/uber/tchannel-go/commit/58cab3427b71b4784c5880483263c2c
 Programming Language - Go
 Number of Tests - 1
 
-Cause (RQ1) - Delay
+Cause (RQ1) - Async Wait
 Fix (RQ2) - Developers added a larger connection timeout to allow the relay to connect

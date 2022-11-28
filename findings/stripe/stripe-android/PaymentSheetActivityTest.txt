@@ -2,5 +2,5 @@ URL - https://github.com/stripe/stripe-android/commit/f88048e1b8892ff27737107d1d
 Programming Language - Kotlin
 Number of Tests - 1
 
-Cause (RQ1) - Delay / Wait
+Cause (RQ1) - Async Wait
 Fix (RQ2) - This test tests the functionality of the payment sheet on an Android app. Flakiness arises in this test when there is not enough time for the sheet to animate onto the screen. To fix the flakiness, developers added a custom delay in order to set aside time for the animations to take place.

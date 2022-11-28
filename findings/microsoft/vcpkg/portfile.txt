@@ -2,5 +2,5 @@ URL - https://github.com/microsoft/vcpkg/commit/7157f7efbf3d0a41374fde760dbed416
 Programming Language - C++
 Number of Tests - 1
 
-Cause (RQ1) - Old Dependencies
+Cause (RQ1) - Old Dependencies / Environment
 Fix (RQ2) - Developers updated the dependencies to their latest version.

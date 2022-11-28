@@ -2,5 +2,5 @@ URL - https://github.com/square/wire/commit/aec6adbf42ca02ba06d8834428de38a36ad8
 Programming Language - Kotlin
 Number of Tests - 1
 
-Cause (RQ1) - Delay
+Cause (RQ1) - Async Wait
 Fix (RQ2) - Developers added a custom delay to ensure that the service can finish up its previous work
